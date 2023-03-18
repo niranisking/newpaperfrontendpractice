@@ -72,7 +72,8 @@ a {
    .mobile-nav-toggle {
     display: block;
     background-image: url(/assets/images/icon-menu.svg);
-    
+    background-color: transparent;
+    aspect-ratio: 1;
     background-repeat: no-repeat;
     width: 3rem;
     aspect-ratio: 1;
@@ -87,9 +88,10 @@ a {
     .mobile-nav-toggle[aria-expanded="true"] {
         background-image: url(/assets/images/icon-menu-close.svg);
         background-repeat: no-repeat;
+   
         display: block;
         aspect-ratio: 1;
-        width: 3rem;
+        width: 2rem;
         aspect-ratio: 1;
         z-index: 1000;
         position: absolute;
@@ -101,7 +103,7 @@ a {
 
    .primary-header {
     display: flex;
-   justify-content: space-between;
+  
     align-items: center;
    }
 
