@@ -56,8 +56,7 @@ a {
    .primary-navigation { 
     position: fixed;
     inset: 0 0 0 30%;
-    background: hsl(0, 0, 100% / 0.1);
-    backdrop-filter: blur(1rem);
+ background-color: aliceblue;
     display: flex;
     flex-direction: column;
     gap: 2rem;
@@ -72,8 +71,8 @@ a {
    
    .mobile-nav-toggle {
     display: block;
-    background-image: url(/assets/images/icon-menu.svg);
-   
+    background-image: url(/menu-svgrepo-com.svg);
+   background-color: transparent;
     
     background-repeat: no-repeat;
    
@@ -110,6 +109,7 @@ a {
     display: flex;
   
     align-items: center;
+    z-index: 998;
    }
 
 
