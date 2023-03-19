@@ -53,7 +53,9 @@ a {
         margin: 0 auto;
         overflow-x: hidden;
     }
-   .primary-navigation { 
+   
+   
+    .primary-navigation { 
     position: fixed;
     inset: 0 0 0 30%;
  background-color: aliceblue;
@@ -65,13 +67,15 @@ a {
     z-index: 1000;
    }   
    
+   
    .primary-navigation[data-visible="true"] {
     transform: translateX(0%);
    }
    
+   
    .mobile-nav-toggle {
     display: block;
-    background-image: url(/menu-svgrepo-com.svg);
+    background-image: url(../icon-menu.svg);
    background-color: transparent;
     
     background-repeat: no-repeat;
@@ -89,8 +93,8 @@ a {
     .mobile-nav-toggle[aria-expanded="true"] {
         
         background-repeat: no-repeat;
-        background-image: url(/icon-menu-close.svg);
-        background-color: transparent;
+        background-image: url(../icon-menu-close.svg);
+      
    
         display: block;
        
@@ -105,12 +109,7 @@ a {
 
     }
 
-   .primary-header {
-    display: flex;
   
-    align-items: center;
-    z-index: 998;
-   }
 
 
    .container1 {
