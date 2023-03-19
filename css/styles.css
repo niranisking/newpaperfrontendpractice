@@ -58,7 +58,7 @@ a {
     .primary-navigation { 
     position: fixed;
     inset: 0 0 0 30%;
- background-color: aliceblue;
+ background-color: white;
     display: flex;
     flex-direction: column;
     gap: 2rem;
@@ -85,8 +85,8 @@ a {
     border: none;
     z-index: 1001;
     position: absolute;
-    top: 1rem;
-    right: 2rem;
+    top: 1.5rem;
+    right: 0.1rem;
    }
 
 
@@ -102,8 +102,8 @@ a {
         aspect-ratio: 2;
         z-index: 1001;
         position: absolute;
-        top: 1rem;
-        right: 2rem;
+        top: 1.5rem;
+        right: 0.1rem;
         border: none;
         
 
@@ -120,12 +120,12 @@ a {
 
    .box1 {
     width: 90vw;
-    height: 30vh;
+    height: 33vh;
    }
 
    .box1-img {
     width: 90vw;
-    height: 30vh;
+    height: 33vh;
    
 }
 
@@ -149,9 +149,11 @@ a {
         .box3 .box3-button {
             letter-spacing: 8px;
             background: orangered;
-            padding: 10px;
-            width: 40vw;
+            padding: 5px 10px;
+          
             border-radius: 5px;
+            display: inline-block;
+            width: 42vw;
           
         }
 
